@@ -531,3 +531,34 @@ main{
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+footer{
+    width: 100%;
+    min-width: 320px;
+    height: 150px;
+    background-color: var(--bitcoin-orange);
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    text-align: center;
+    align-items: center;
+}
+.footer-left ul li{
+    margin: 10px 0;
+}
+.footer-left ul li a{
+    text-decoration: none;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    font-weight: 500;
+    color: var(--just-white);
+}
+.footer-right picture img{
+    width: 40px;
+    height: 25px;
+    margin-bottom: 10px;
+}
+.footer-right picture p{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--soft-orange);
+}

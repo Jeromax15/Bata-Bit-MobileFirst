@@ -1,0 +1,13 @@
+.main-exchange--table{
+    display: flex;
+    width: 930px;
+    margin: 0 auto 50px;
+}.product-cards--container{
+    display: flex;
+    width: 930px;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+.plans-container--slider{
+    justify-content: center;
+}
